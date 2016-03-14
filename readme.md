@@ -58,4 +58,6 @@ These are replaced by actual values from a collection of data pulled from a Redu
 * [x] Integrate Redux stores
 * [ ] Interact with store
 * [ ] Add routes
+* [ ] Integrate Draft.js with placeholders
+* [ ] Build a UI for managing nodes and properties
 
