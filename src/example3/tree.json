@@ -1,0 +1,27 @@
+{
+  "@type": "Node",
+  "@id": 3,
+  "value": {
+    "@type": "Link",
+    "@id": 4,
+    "href": "/testurl",
+    "className": "btn btn--positive",
+    "events": [
+      {
+        "type": "onClick",
+        "action": "toggle"
+      }
+    ]
+  },
+  "children": [
+    {
+      "@type": "Node",
+      "@id": 5,
+      "value": {
+        "@type": "Text",
+        "@id": 6,
+        "text": "Hello"
+      }
+    }
+  ]
+}

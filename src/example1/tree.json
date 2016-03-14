@@ -1,0 +1,41 @@
+{
+  "@type": "Node",
+  "@id": 1,
+  "value": {
+    "@type": "Box",
+    "@id": 2,
+    "class": "box box--offset m p"
+  },
+  "children": [
+    {
+      "@type": "Node",
+      "@id": 3,
+      "value": {
+        "@type": "Link",
+        "@id": 4,
+        "href": "/testurl",
+        "className": "btn btn--positive"
+      },
+      "children": [
+        {
+          "@type": "Node",
+          "@id": 5,
+          "value": {
+            "@type": "Text",
+            "@id": 6,
+            "text": "Hello"
+          }
+        },
+        {
+          "@type": "Node",
+          "@id": 7,
+          "value": {
+            "@type": "Text",
+            "@id": 8,
+            "text": "World"
+          }
+        }
+      ]
+    }
+  ]
+}
