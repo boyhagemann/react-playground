@@ -1,5 +1,5 @@
 React Playground
---------------------------------------------------
+========================================================
 
 This is just a set of examples or proofs of concept.
 
