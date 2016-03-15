@@ -26,14 +26,18 @@ This example displays a collection of nodes, based on a central Redux store
 In this example the properties of the React components have placeholders, like `{label}`.
 These are replaced by actual values from a collection of data pulled from a Redux store.
 
+## Example 5
+Integrate with Redux devtools to show a history of state changes
+You need to install `redux devtools` Chrome extension
 
 ## Todo
 
-* [x] Build from json file
-* [x] Get json from data store (Neo4j)
-* [x] Add presentional components
-* [x] Add container components
-* [x] Integrate Redux stores
+* [x] Build from json file *Example 1*
+* [x] Add presentional components *Example 1*
+* [x] Get json from data store (Neo4j) *Example 2*
+* [x] Integrate Redux stores *Example 3*
+* [x] Add container components *Example 4*
+* [x] Use with Redux Devtools *Example 5*
 * [ ] Interact with store
 * [ ] Get data from external source
 * [ ] Add routes
