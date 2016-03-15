@@ -4,7 +4,8 @@ import { connect } from 'react-redux'
 
 const mapStateToProps = (state) => {
     return {
-        items: state
+        items: state,
+        onClick: () => { 'test' }
     }
 }
 

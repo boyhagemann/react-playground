@@ -1,11 +1,14 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import { toggle } from '../actions'
 import Box from './box'
 import Link from './link'
 import Text from './text'
+import Active from './active'
 import Collection from './collection'
 
 // We need to have all components in a lookup list
-const components = { Text, Element, Box, Link, Collection }
+const components = { Text, Active, Element, Box, Link, Collection }
 
 /**
  * Build a tree of React elements
@@ -18,6 +21,18 @@ export const nodify = (node, model) => {
     // Get the values and replace the placeholders with the values from the model
     const values = model ? replacePlaceholders(node, model) : node.value
 
+    // Convert events to props
+    const mapStateToProps = state => {
+        return {}
+    }
+
+    const mapDispatchToProps = dispatch => {
+
+        return {
+            handleClick: model => dispatch(toggle(model))
+        }
+    }
+
     // Get the react component from the list
     const component = components[values['@type']]
 
@@ -28,9 +43,12 @@ export const nodify = (node, model) => {
     const appended = Object.assign({}, values, { node, model, key })
 
     // Render the node children and inject the node and model info top down
-    const children = node.children ? node.children.map( child => nodify(child, model)) : []
+    const children = node.children && node.children.map( child => nodify(child, model))
 
-    return React.createElement(component, appended, children)
+    // Wrap the component in a Redux connected container class
+    const connected = connect(mapStateToProps, mapDispatchToProps)(component);
+
+    return React.createElement(connected, appended, children)
 }
 
 /**

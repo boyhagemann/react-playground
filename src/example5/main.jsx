@@ -6,9 +6,10 @@ import { Provider } from 'react-redux';
 import { nodify } from './components/node';
 import config from './tree.json';
 
-import { testApp } from './reducers'
+import { testModels } from './reducers'
+
 const store = createStore(
-    testApp,
+    testModels,
     compose(
         window.devToolsExtension ? window.devToolsExtension() : f => f
     )

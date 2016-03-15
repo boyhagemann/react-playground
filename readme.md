@@ -36,9 +36,9 @@ You need to install `redux devtools` Chrome extension
 * [x] Add presentional components *Example 1*
 * [x] Get json from data store (Neo4j) *Example 2*
 * [x] Integrate Redux stores *Example 3*
+* [x] Interact with store *Example 3/5*
 * [x] Add container components *Example 4*
 * [x] Use with Redux Devtools *Example 5*
-* [ ] Interact with store
 * [ ] Get data from external source
 * [ ] Add routes
 * [ ] Integrate Draft.js with placeholders

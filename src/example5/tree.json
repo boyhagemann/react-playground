@@ -48,12 +48,27 @@
             },
             {
               "@type": "Node",
+              "@id": "abktjd2dg54vvdasdsadfdf",
+              "value": {
+                "@type": "Active",
+                "@id": "abktjd2dg54vvdasdccccccc",
+                "active": "{active}"
+              }
+            },
+            {
+              "@type": "Node",
               "@id": 3,
               "value": {
                 "@type": "Link",
                 "@id": 4,
                 "href": "/testurl/{label}",
-                "className": "btn btn--positive"
+                "className": "btn btn--positive",
+                "events": [
+                  {
+                    "type": "handleClick",
+                    "action": "toggle"
+                  }
+                ]
               },
               "children": [
                 {
