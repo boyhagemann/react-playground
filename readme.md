@@ -7,7 +7,7 @@ This is just a set of examples or proofs of concept.
 ## Install
 
 1. `git clone https://github.com/boyhagemann/react-playground`
-2. `npm install`
+2. Go to your project folder and run `npm install`
 3. Run any example, like `npm run example3`
 4. Go to `http://localhost:8080` and view the result
 
