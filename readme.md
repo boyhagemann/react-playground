@@ -30,6 +30,9 @@ These are replaced by actual values from a collection of data pulled from a Redu
 Integrate with Redux devtools to show a history of state changes
 You need to install `redux devtools` Chrome extension
 
+## Example 6
+Load data from Firebase.
+
 ## Todo
 
 * [x] Build from json file *Example 1*
@@ -39,7 +42,8 @@ You need to install `redux devtools` Chrome extension
 * [x] Interact with store *Example 3/5*
 * [x] Add container components *Example 4*
 * [x] Use with Redux Devtools *Example 5*
-* [ ] Get data from external source
+* [x] Get data from external source (Firebase) *Example 6*
+* [ ] Update data in external source (Firebase)
 * [ ] Add routes
 * [ ] Integrate Draft.js with placeholders
 * [ ] Build a UI for managing nodes and properties

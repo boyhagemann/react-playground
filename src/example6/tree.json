@@ -1,0 +1,99 @@
+{
+  "@type": "Node",
+  "@id": 1,
+  "value": {
+    "@type": "Box",
+    "@id": 2,
+    "className": "box box--centered p"
+  },
+  "children": [
+    {
+      "@type": "Node",
+      "@id": 111,
+      "value": {
+        "@type": "Collection",
+        "@id": 222
+      },
+      "children": [
+        {
+          "@type": "Node",
+          "@id": 111,
+          "value": {
+            "@type": "Box",
+            "@id": 222,
+            "className": "box box--offset m-- p"
+          },
+          "children": [
+            {
+              "@type": "Node",
+              "@id": "abktjd2dg54vvdd2",
+              "value": {
+                "@type": "Text",
+                "@id": "abktjd2dg54vvdasdsaaaa",
+                "type": "h3",
+                "size": 5,
+                "text": "{label}",
+                "className": "m0"
+              }
+            },
+            {
+              "@type": "Node",
+              "@id": "abktjd2dg54vvdasdsa",
+              "value": {
+                "@type": "Text",
+                "@id": "abktjd2dg54vvdasdbbbbbb",
+                "type": "p",
+                "text": "{description}"
+              }
+            },
+            {
+              "@type": "Node",
+              "@id": "abktjd2dg54vvdasdsadfdf",
+              "value": {
+                "@type": "Active",
+                "@id": "abktjd2dg54vvdasdccccccc",
+                "active": "{active}"
+              }
+            },
+            {
+              "@type": "Node",
+              "@id": 3,
+              "value": {
+                "@type": "Link",
+                "@id": 4,
+                "href": "/testurl/{label}",
+                "className": "btn btn--positive",
+                "events": [
+                  {
+                    "type": "handleClick",
+                    "action": "toggle"
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "@type": "Node",
+                  "@id": 5,
+                  "value": {
+                    "@type": "Text",
+                    "@id": 6,
+                    "text": "Hello {label}"
+                  }
+                },
+                {
+                  "@type": "Node",
+                  "@id": 7,
+                  "value": {
+                    "@type": "Text",
+                    "@id": 8,
+                    "text": "World"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
