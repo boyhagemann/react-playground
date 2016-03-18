@@ -11,6 +11,8 @@
     "example4": "webpack-dev-server --entry ./src/example4/main.jsx --content-base public --inline --hot",
     "example5": "webpack-dev-server --entry ./src/example5/main.jsx --content-base public --inline --hot",
     "example6": "webpack-dev-server --entry ./src/example6/main.jsx --content-base public --inline --hot",
+    "example7": "webpack-dev-server --entry ./src/example7/main.jsx --content-base public --inline --hot",
+    "example8": "webpack-dev-server --entry ./src/example8/main.jsx --content-base public --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -21,6 +23,8 @@
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-redux": "^4.4.0",
+    "react-router": "^2.0.1",
+    "react-router-redux": "^4.0.0",
     "redux": "^3.3.1",
     "redux-thunk": "^2.0.1"
   },

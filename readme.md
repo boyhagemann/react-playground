@@ -33,6 +33,12 @@ You need to install `redux devtools` Chrome extension
 ## Example 6
 Load data from Firebase.
 
+## Example 7
+Add routes with React Router.
+
+## Example 8
+Keep track of the route history in Redux
+
 ## Todo
 
 * [x] Build from json file *Example 1*
@@ -43,8 +49,11 @@ Load data from Firebase.
 * [x] Add container components *Example 4*
 * [x] Use with Redux Devtools *Example 5*
 * [x] Get data from external source (Firebase) *Example 6*
+* [x] Add routes *Example 7*
+* [x] Keep route history in Redux store *Example 8*
+* [ ] Get json from data store (Firebase)
+* [ ] Add nested routes
 * [ ] Update data in external source (Firebase)
-* [ ] Add routes
 * [ ] Integrate Draft.js with placeholders
 * [ ] Build a UI for managing nodes and properties
 
